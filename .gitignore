@@ -141,3 +141,6 @@ app.*.symbols
 **/linux/
 **/macos/
 **/windows/
+
+# FVM
+.fvm/flutter_sdk

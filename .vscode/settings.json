@@ -1,0 +1,10 @@
+{
+                    // 検索対象からFVMのファイルを除外します。(任意)
+                    "search.exclude": {
+                                        "**/.fvm": true
+                    },
+                    // ファイル監視対象からFVMのファイルを除外します。(任意)
+                    "files.watcherExclude": {
+                                        "**/.fvm": true
+                    },
+}
