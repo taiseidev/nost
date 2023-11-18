@@ -56,8 +56,8 @@ jobs:
           echo "🔖 version: $BUMP_VERSION" | git commit --file=-
           git push
 
-      # - name: create tag and release note
-      #   env:
-      #     GH_TOKEN: ${{ secrets.GH_PAT }}
-      #   run: |
-      #     gh release create v$BUMP_VERSION --generate-notes
+      - name: create tag and release note
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh release create v$BUMP_VERSION --generate-notes
