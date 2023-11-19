@@ -11,5 +11,5 @@ abstract class Env {
   @EnviedField(varName: 'SUPABASE_URL_PROD', obfuscate: true)
   static String prodUrl = _Env.prodUrl;
   @EnviedField(varName: 'SUPABASE_ANON_KEY_PROD', obfuscate: true)
-  static String prodKey = _Env.prodUrl;
+  static String prodKey = _Env.prodKey;
 }
