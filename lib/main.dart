@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:package_info_plus/package_info_plus.dart';
+import 'package:nost/utils/flavor.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  final packageInfo = await PackageInfo.fromPlatform();
-
-  final appName = packageInfo.appName;
-
-  print(appName);
-
   await Supabase.initialize(
-    url: 'SUPABASE_URL',
-    anonKey: 'SUPABASE_ANON_KEY',
+    url: Flavor.apiKey,
+    anonKey: Flavor.projectUrl,
   );
+
   runApp(
     const MyApp(),
   );

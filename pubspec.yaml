@@ -13,6 +13,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   supabase_flutter: ^1.10.25
   package_info_plus: ^4.2.0
+  envied: ^0.5.2
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +21,7 @@ dev_dependencies:
   very_good_analysis: ^5.1.0
   build_runner: ^2.4.6
   cider: ^0.2.4
+  envied_generator: ^0.5.2
 
 flutter:
   uses-material-design: true

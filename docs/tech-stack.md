@@ -16,3 +16,7 @@
 
 ## Environment
 - [Flutter の環境分けの新時代](https://zenn.dev/blendthink/articles/392607db0a65dd)
+
+## Env
+- [enved](https://pub.dev/packages/envied)
+- [【Flutter】enviedパッケージを使う際にひっかかったこと](https://zenn.dev/8rine23/scraps/f097a9505cbe7b)
