@@ -14,6 +14,7 @@ dependencies:
   supabase_flutter: ^1.10.25
   package_info_plus: ^4.2.0
   envied: ^0.5.2
+  logger: ^2.0.2+1
 
 dev_dependencies:
   flutter_test:

@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nost/utils/flavor.dart';
+import 'package:nost/utils/logger.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // ログの設定
+  NostLogger.config();
+
+  logger.i('env: ${Flavor.environment}');
 
   await Supabase.initialize(
     url: Flavor.apiKey,
