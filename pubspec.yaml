@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations: # add this
+    sdk: flutter
   cupertino_icons: ^1.0.2
   supabase_flutter: ^1.10.25
   package_info_plus: ^4.2.0
@@ -35,6 +37,8 @@ dependencies:
   dio: ^5.3.3
   uuid: ^4.2.1
   device_preview: ^1.1.0
+  slang: ^3.25.0
+  slang_flutter: ^3.25.0
 
 dev_dependencies:
   flutter_test:
@@ -49,6 +53,7 @@ dev_dependencies:
   freezed: ^2.4.5
   json_serializable: ^6.7.1
   go_router_builder: ^2.3.4
+  slang_build_runner: ^3.25.0
 
 flutter:
   uses-material-design: true

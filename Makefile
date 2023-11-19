@@ -7,3 +7,8 @@ build:
 setup:
 	flutter clean
 	flutter pub get
+
+.PHONY: slang
+slang:
+	fvm dart run build_runner build -d
+	flutter pub run build_runner build --delete-conflicting-outputs
