@@ -1,4 +1,4 @@
-import 'package:nost/env.dart';
+import 'package:nost/core/env.dart';
 
 enum FlavorType { dev, prod }
 

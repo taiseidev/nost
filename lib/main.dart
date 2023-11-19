@@ -2,8 +2,8 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:nost/app.dart';
-import 'package:nost/i18n/strings.g.dart';
-import 'package:nost/utils/flavor.dart';
+import 'package:nost/core/i18n/strings.g.dart';
+import 'package:nost/core/utils/flavor.dart';
 import 'package:nost/utils/logger.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 

@@ -1,7 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:nost/i18n/strings.g.dart';
+import 'package:nost/core/i18n/strings.g.dart';
 
 final class App extends StatelessWidget {
   const App({super.key});
