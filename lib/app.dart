@@ -27,23 +27,3 @@ final class App extends ConsumerWidget {
     );
   }
 }
-
-class HomePage extends StatelessWidget {
-  const HomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final a = i18n.login.success;
-
-    return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text(a),
-          ],
-        ),
-      ),
-    );
-  }
-}

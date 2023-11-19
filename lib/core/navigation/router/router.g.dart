@@ -3,40 +3,10 @@
 part of 'router.dart';
 
 // **************************************************************************
-// GoRouterGenerator
-// **************************************************************************
-
-List<RouteBase> get $appRoutes => [
-      $homeRoute,
-    ];
-
-RouteBase get $homeRoute => GoRouteData.$route(
-      path: '/',
-      factory: $HomeRouteExtension._fromState,
-    );
-
-extension $HomeRouteExtension on HomeRoute {
-  static HomeRoute _fromState(GoRouterState state) => const HomeRoute();
-
-  String get location => GoRouteData.$location(
-        '/',
-      );
-
-  void go(BuildContext context) => context.go(location);
-
-  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
-
-  void pushReplacement(BuildContext context) =>
-      context.pushReplacement(location);
-
-  void replace(BuildContext context) => context.replace(location);
-}
-
-// **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$routerHash() => r'a27c796ae3682818ab4c24fbf75cb0245869c831';
+String _$routerHash() => r'8c115798104f101db5bedfc231611e86306459fb';
 
 /// See also [router].
 @ProviderFor(router)
