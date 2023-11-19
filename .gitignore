@@ -143,3 +143,7 @@ app.*.symbols
 
 # FVM
 .fvm/flutter_sdk
+
+#.env
+*.env
+*env.g.dart
