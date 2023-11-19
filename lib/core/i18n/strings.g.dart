@@ -1,12 +1,12 @@
 /// Generated file. Do not edit.
 ///
-/// Original: lib/i18n
+/// Original: lib/core/i18n
 /// To regenerate, run: `dart run slang`
 ///
 /// Locales: 1
 /// Strings: 3
 ///
-/// Built on 2023-11-19 at 15:30 UTC
+/// Built on 2023-11-19 at 16:35 UTC
 
 // coverage:ignore-file
 // ignore_for_file: type=lint
